@@ -66,6 +66,6 @@ The fine-tuned model obtained the following accuracy on 45,990 held-out text sam
 
 -----------------------------------------------
 ## ☕ Contact Original Author
-Contact [Daulet Nurmanbetov](daulet.nurmanbetov@gmail.com) for questions, feedback and/or requests for similar models.
+Contact [Daulet Nurmanbetov](mailto:daulet.nurmanbetov@gmail.com) (https://github.com/Felflare) for questions, feedback and/or requests for similar models.
 
 -----------------------------------------------
