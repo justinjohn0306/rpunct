@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: rpunct
 Version: 1.0.2
-Summary: An easy-to-use package to  restore punctuation of text.
+Summary: An easy-to-use package to restore punctuation of text.
 Home-page: https://github.com/Felflare/rpunct
 Author: Daulet Nurmanbetov
 Author-email: daulet.nurmanbetov@gmail.com
@@ -12,16 +12,10 @@ Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 
-> **Note**
-> I have forked this repository to loosen the dependencies and remove the requirement for CUDA. The previous repository appears to be abandoned. You can install this version with:
-> ```shell
-> pip install git+https://github.com/samwaterbury/rpunct.git
-> ```
->
-> I do not promise to keep this fork forever — if you want to use it, please fork it yourself!
+> **Note**:
+> Forked from https://github.com/samwaterbury/rpunct.git
 
 # ✏️ rpunct - Restore Punctuation
-[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)]()
 
 This repo contains code for Punctuation restoration.
 
@@ -53,7 +47,7 @@ pip install rpunct
 ```python
 from rpunct import RestorePuncts
 # The default language is 'english'
-rpunct = RestorePuncts()
+rpunct = RestorePuncts(model_path="path/to/your/model")
 rpunct.punctuate("""in 2018 cornell researchers built a high-powered detector that in combination with an algorithm-driven process called ptychography set a world record
 by tripling the resolution of a state-of-the-art electron microscope as successful as it was that approach had a weakness it only worked with ultrathin samples that were
 a few atoms thick anything thicker would cause the electrons to scatter in ways that could not be disentangled now a team again led by david muller the samuel b eckert
@@ -91,7 +85,7 @@ To start fine-tuning or training please look into `training/train.py` file.
 Running `python training/train.py` will replicate the results of this model.
 
 -----------------------------------------------
-## ☕ Contact 
+## ☕ Contact Original Author
 Contact [Daulet Nurmanbetov](daulet.nurmanbetov@gmail.com) for questions, feedback and/or requests for similar models.
 
 -----------------------------------------------

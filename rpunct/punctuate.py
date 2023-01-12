@@ -169,4 +169,5 @@ class RestorePuncts:
         # Append trailing period if doesn't exist.
         if punct_resp[-1].isalnum():
             punct_resp += "."
-        return punct_resp
+        return punct_resp.replace("`", "'")
+
