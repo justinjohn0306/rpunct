@@ -1,5 +1,1 @@
-langdetect~=1.0
-pandas~=1.0
-simpletransformers~=0.61
-six~=1.16
-torch~=1.8
+torch==1.13.1
