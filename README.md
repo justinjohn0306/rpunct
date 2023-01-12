@@ -65,12 +65,6 @@ The fine-tuned model obtained the following accuracy on 45,990 held-out text sam
 | 91%  | 90%                 | 45,990
 
 -----------------------------------------------
-## 💻🎯 Further Fine-Tuning
-
-To start fine-tuning or training please look into `training/train.py` file.
-Running `python training/train.py` will replicate the results of this model.
-
------------------------------------------------
 ## ☕ Contact Original Author
 Contact [Daulet Nurmanbetov](daulet.nurmanbetov@gmail.com) for questions, feedback and/or requests for similar models.
 
