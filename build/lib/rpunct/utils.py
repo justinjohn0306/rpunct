@@ -4,7 +4,6 @@
 __author__ = "Daulet N."
 __email__ = "daulet.nurmanbetov@gmail.com"
 
-
 def prepare_unpunct_text(text):
     """
     Given a text, normalizes it to subsequently restore punctuation
@@ -15,7 +14,6 @@ def prepare_unpunct_text(text):
     punct_strp_txt = [strip_punct(i) for i in formatted_txt_lst]
     normalized_txt = " ".join([i for i in punct_strp_txt if i])
     return normalized_txt
-
 
 def strip_punct(wrd):
     """

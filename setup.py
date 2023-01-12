@@ -18,7 +18,7 @@ setup(
     version="1.0.2",
     author="Daulet Nurmanbetov",
     author_email="daulet.nurmanbetov@gmail.com",
-    description="An easy-to-use package to  restore punctuation of text.",
+    description="An easy-to-use package to restore punctuation of text.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Felflare/rpunct",

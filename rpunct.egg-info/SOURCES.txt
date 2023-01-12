@@ -1,0 +1,10 @@
+README.md
+setup.py
+rpunct/__init__.py
+rpunct/punctuate.py
+rpunct/utils.py
+rpunct.egg-info/PKG-INFO
+rpunct.egg-info/SOURCES.txt
+rpunct.egg-info/dependency_links.txt
+rpunct.egg-info/requires.txt
+rpunct.egg-info/top_level.txt
